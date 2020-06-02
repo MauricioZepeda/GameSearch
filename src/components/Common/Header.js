@@ -5,7 +5,12 @@ const Header = () => {
     return(
         <AppBar position="sticky">
             <Toolbar> 
-                <h1>👾 Games Finder App 🎮</h1>
+                <h1>
+                    <span role='img' aria-label='img1'>👾</span>
+                        Games Finder App
+                    <span role='img' aria-label='img2'>🎮</span> 
+                   
+                </h1>
             </Toolbar>
         </AppBar>
     )

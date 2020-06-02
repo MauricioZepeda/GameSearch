@@ -14,6 +14,7 @@ const useStyles = makeStyles(() => ({
 const ListGames = ({gamesList}) => { 
     const classes = useStyles(); 
     return (  
+        
          <div className={classes.root}>
             {gamesList.map(game => { 
                 return (
@@ -21,6 +22,7 @@ const ListGames = ({gamesList}) => {
                 )
             })} 
         </div>
+        
     );
 }
   

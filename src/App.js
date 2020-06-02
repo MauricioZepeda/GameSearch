@@ -10,9 +10,7 @@ import NotFound from './components/NotFound';
 
 import SelectGenres from './components/Genres/SelectGenres';
 import SelectPlatforms from './components/Platforms/SelectPlatforms';
-
-import { Grid, Paper } from '@material-ui/core';
-
+ 
 import './assets/css/styles.css';
 import SearchGames from './components/Games/SearchGames'; 
 import GameDetails from './components/Games/GameDetails';
